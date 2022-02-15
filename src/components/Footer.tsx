@@ -62,7 +62,7 @@ export default function Footer() {
       >
         <Flex>
           <Logo w="24vmin" />
-          <Image ml={3} h="10vmin" src="/samiksha.jpg" alt="Samiksha" />
+          <Image ml={3} h="10vmin" src="/samiksha.png" alt="Samiksha" />
           <Image ml={3} h="10vmin" src="/mais.png" alt="MAIS" />
         </Flex>
         <Stack direction="row" spacing={6}>
@@ -71,9 +71,9 @@ export default function Footer() {
             <Link
               color={useColorModeValue('blue.400', 'blue.200')}
               fontWeight={800}
-              href="/home"
+              href="mailto:bouncebackteam@gmail.com"
             >
-              bounceback_email
+              bouncebackteam@gmail.com
             </Link>
           </Text>
         </Stack>

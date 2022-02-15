@@ -43,7 +43,7 @@ export default function Navbar() {
             alignItems="center"
           >
             <Logo h="10vmin" />
-            <Image ml={3} h="10vmin" src="/samiksha.jpg" alt="Samiksha" />
+            <Image ml={3} h="10vmin" src="/samiksha.png" alt="Samiksha" />
             <Image ml={3} h="10vmin" src="/mais.png" alt="MAIS" />
           </chakra.a>
         </Flex>

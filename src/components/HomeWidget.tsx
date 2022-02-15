@@ -93,10 +93,9 @@ export default function HomeWidget() {
                 What is BounceHack?
               </Heading>
               <Text mt={3}>
-                BounceHacks is a hackathon from Mallya Aditi International
-                School to raise funds for the Samiksha Foundation. BounceBack
-                was a sports tournament, that has since pivoted to a series of
-                events!
+                BounceHacks is a hackathon from Bounceback to raise funds for
+                the Samiksha Foundation. BounceBack was a sports tournament,
+                that has since pivoted to a series of events!
                 <br />
                 <br />
                 Participants will work in teams to create incredible and

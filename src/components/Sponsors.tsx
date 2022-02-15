@@ -47,7 +47,7 @@ export default function Sponsors() {
             color={useColorModeValue('blue.400', 'blue.200')}
             fontWeight={800}
             fontSize={{ base: 20, md: 48 }}
-            href="mailto:arnav.jindal7@gmail.com"
+            href="mailto:bouncebackteam@gmail.com"
           >
             Contact Us
           </Link>
