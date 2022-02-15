@@ -44,7 +44,7 @@ export default function Navbar() {
           >
             <Logo h="10vmin" />
             <Image ml={3} h="10vmin" src="/samiksha.jpg" alt="Samiksha" />
-            <Image ml={3} h="10vmin" src="/mais.png" alt="Samiksha" />
+            <Image ml={3} h="10vmin" src="/mais.png" alt="MAIS" />
           </chakra.a>
         </Flex>
         <HStack display="flex" alignItems="center" spacing={1}>
