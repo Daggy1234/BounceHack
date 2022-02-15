@@ -20,13 +20,13 @@ export default function HomeWidget() {
     <Box>
       <Flex direction="column">
         <Flex
-          py={{ base: 10, md: 40 }}
+          py={{ base: 5, md: 40 }}
           // backgroundRepeat="no-repeat"
           // backgroundSize="cover"
           // backgroundImage="/opuR60.jpg"
           direction={{ base: 'column', md: 'row' }}
         >
-          <Flex p={10} direction="column">
+          <Flex p={{ base: 2, md: 10 }} direction="column">
             <Heading size={useBreakpointValue({ base: '2xl', md: '4xl' })}>
               <Text
                 as="span"

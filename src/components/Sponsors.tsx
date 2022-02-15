@@ -29,7 +29,7 @@ export default function Sponsors() {
         my={10}
         bg={useColorModeValue('gray.50', 'gray.600')}
         h="800px"
-        p={20}
+        p={{ base: 2, md: 20 }}
       >
         <Heading
           fontWeight={800}
@@ -46,7 +46,7 @@ export default function Sponsors() {
           <Link
             color={useColorModeValue('blue.400', 'blue.200')}
             fontWeight={800}
-            fontSize={48}
+            fontSize={{ base: 20, md: 48 }}
             href="mailto:arnav.jindal7@gmail.com"
           >
             Contact Us

@@ -11,6 +11,7 @@ import {
   Icon,
   SimpleGrid,
   useColorModeValue,
+  useBreakpointValue,
 } from '@chakra-ui/react'
 
 const testimonials = [
@@ -57,6 +58,7 @@ interface TrackCardProps {
 function TrackCard(props: TrackCardProps) {
   const { name, content, avatar, index } = props
   const gcolor = useColorModeValue('green.400', 'green.200')
+  const gs = useBreakpointValue({ base: '2xl', md: '3xl' })
   return (
     <Flex
       boxShadow="sm"
@@ -87,7 +89,7 @@ function TrackCard(props: TrackCardProps) {
       <Flex direction="column" textAlign="left" justifyContent="space-between">
         <Heading
           color={avatar ? gcolor : ''}
-          size={avatar ? 'xl' : '3xl'}
+          size={avatar ? 'xl' : gs}
           my={avatar ? 3 : 8}
         >
           {name}
