@@ -27,12 +27,12 @@ export default function FAQ() {
       data: 'Anyone in High School (Grades 9-12) with a passion can participate. There is no selection process and everyone is welcome.',
     },
     {
-      title: 'How Many people on a team?',
+      title: 'How many people on a team?',
       data: 'A team may have a maximum of 5 members.',
     },
     {
       title: 'What does my registration fee go towards?',
-      data: 'Bounehacks uses registration fees to fund prizes, and all proceeds will be donated to the Samiksha Foundation.',
+      data: 'Bouncehack uses registration fees to fund prizes, and all proceeds will be donated to the Samiksha Foundation.',
     },
     {
       title: 'What languages/software can I use?',

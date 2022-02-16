@@ -93,14 +93,14 @@ export default function HomeWidget() {
                 What is BounceHack?
               </Heading>
               <Text mt={3}>
-                BounceHacks is a hackathon from Bounceback to raise funds for
-                the Samiksha Foundation. BounceBack was a sports tournament,
-                that has since pivoted to a series of events!
+                BounceHack is a hackathon from Bounceback to raise funds for the
+                Samiksha Foundation. BounceBack was a sports tournament, that
+                has since pivoted to a series of events!
                 <br />
                 <br />
                 Participants will work in teams to create incredible and
-                exciting projects in 24hours. Each team may compete in 1 of 3
-                tracks, with seperate prizes for each track!
+                exciting projects in 24 hours. Each team may compete in 1 of 3
+                tracks, with separate prizes for each track!
               </Text>
             </Box>
           </Box>

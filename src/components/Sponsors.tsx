@@ -40,7 +40,7 @@ export default function Sponsors() {
             {'<'}your brand{'>'}
           </Text>
           <br />
-          Sponsor BounceHacks
+          Sponsor BounceHack
         </Heading>
         <Box mt={3}>
           <Link

@@ -30,13 +30,13 @@ const testimonials = [
   {
     name: 'Analysis',
     content:
-      'For people that love data. Find, Analyze and Use data pertinent to the theme. For budding Data Scientists and Machine Learning Enthusiasts. You will be judged on analysis, presentation and implementation of your analysis!',
+      'For people that love data. Find, analyze and Use data pertinent to the theme. For budding Data Scientists and Machine Learning Enthusiasts. You will be judged on analysis, presentation and implementation of your analysis!',
     avatar: '/analysis.svg',
   },
   {
     name: 'Momento',
     content:
-      'We capture moments and memories all the time though our devices. Use our theme to innovate a product built to share. You will be judged on idea, execution and marketing.',
+      'We capture moments and memories all the time though our devices. Use our theme to innovate a product built to share. You will be judged on ideation, execution and marketing.',
     avatar: '/share.svg',
   },
 ]

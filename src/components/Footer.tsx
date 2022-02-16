@@ -93,7 +93,7 @@ export default function Footer() {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}
         >
-          <Text>Copyright 2022 © Bouncehacks | Made with by 💚 Daggy1234</Text>
+          <Text>Copyright 2022 © Bouncehack</Text>
           <Stack direction="row" spacing={6}>
             <SocialButton label="Twitter" href="#">
               <FaTwitter />
