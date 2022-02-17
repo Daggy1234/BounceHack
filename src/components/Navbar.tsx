@@ -22,6 +22,7 @@ import {
   IconButton,
   VStack,
   CloseButton,
+  useBreakpointValue,
 } from '@chakra-ui/react'
 
 import { AiOutlineMenu } from 'react-icons/ai'
@@ -31,6 +32,14 @@ import { Logo } from './Logo'
 export default function Navbar() {
   const bg = useColorModeValue('white', 'gray.800')
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const ubp = useBreakpointValue({
+    base: 'base',
+    sm: 'sm',
+    md: 'md',
+    lg: 'lg',
+    xl: 'xl',
+  })
+  console.log(ubp)
   const { scroller } = Scroll
   return (
     <chakra.header bg={bg} w="full" px={{ base: 2, sm: 4 }} py={4}>
@@ -42,9 +51,21 @@ export default function Navbar() {
             display="flex"
             alignItems="center"
           >
-            <Logo h="10vmin" />
-            <Image ml={3} h="10vmin" src="/samiksha.png" alt="Samiksha" />
-            <Image ml={3} h="10vmin" src="/mais.png" alt="MAIS" />
+            <Logo
+              h={{ base: '10vmin', md: '5vmin', lg: '8vmin', xl: '10vmin' }}
+            />
+            <Image
+              ml={3}
+              h={{ base: '10vmin', md: '5vmin', lg: '8vmin', xl: '10vmin' }}
+              src="/samiksha.png"
+              alt="Samiksha"
+            />
+            <Image
+              ml={3}
+              h={{ base: '10vmin', md: '5vmin', lg: '8vmin', xl: '10vmin' }}
+              src="/mais.png"
+              alt="MAIS"
+            />
           </chakra.a>
         </Flex>
         <HStack display="flex" alignItems="center" spacing={1}>

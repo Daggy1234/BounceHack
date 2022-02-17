@@ -5,6 +5,7 @@ import {
   Icon,
   VStack,
   Image,
+  chakra,
   Text,
   Button,
   useBreakpointValue,
@@ -96,6 +97,16 @@ export default function HomeWidget() {
                 BounceHack is a hackathon from Bounceback to raise funds for the
                 Samiksha Foundation. BounceBack was a sports tournament, that
                 has since pivoted to a series of events!
+                <br />
+                <br />
+                Samiksha Foundation is a creative learning initiative for
+                children with cancer and their caregivers. It provides
+                educational, spiritual, and creative support to children while
+                they undergo treatment for cancer and other life-limiting
+                conditions.{' '}
+                <chakra.span color={useColorModeValue('blue.400', 'blue.200')}>
+                  https://samikshafoundation.org/
+                </chakra.span>
                 <br />
                 <br />
                 Participants will work in teams to create incredible and

@@ -24,7 +24,7 @@ export default function FAQ() {
   const accordianMapping = [
     {
       title: 'Who can participate in the event?',
-      data: 'Anyone in High School (Grades 9-12) with a passion can participate. There is no selection process and everyone is welcome.',
+      data: 'Anyone in High School (Grades 9-12) can participate. There is no selection process and everyone is welcome.',
     },
     {
       title: 'How many people on a team?',
