@@ -63,7 +63,7 @@ export default function Footer() {
         <Flex>
           <Logo w="24vmin" />
           <Image ml={3} h="10vmin" src="/samiksha.png" alt="Samiksha" />
-          <Image ml={3} h="10vmin" src="/mais.png" alt="MAIS" />
+          <Image ml={3} h="10vmin" src="/mais.jpg" alt="MAIS" />
         </Flex>
         <Stack direction="row" spacing={6}>
           <Text fontSize="xl">

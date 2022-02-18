@@ -16,6 +16,7 @@ import Footer from './components/Footer'
 import Tracks from './components/Tracks'
 import Sponsors from './components/Sponsors'
 import FAQ from './components/FAQ'
+import 'focus-visible/dist/focus-visible'
 
 export default function App() {
   return (

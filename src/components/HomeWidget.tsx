@@ -7,6 +7,7 @@ import {
   Image,
   chakra,
   Text,
+  Link,
   Button,
   useBreakpointValue,
   Box,
@@ -14,7 +15,6 @@ import {
 } from '@chakra-ui/react'
 
 import { AiFillCalendar, AiFillHome, AiFillClockCircle } from 'react-icons/ai'
-import logo from './bouncehack.svg'
 
 export default function HomeWidget() {
   return (
@@ -66,9 +66,11 @@ export default function HomeWidget() {
                 <Text fontWeight="bold">24 Hours</Text>
               </Flex>
             </VStack>
-            <Button colorScheme="green" mt={3} maxW="sm">
-              Register Now
-            </Button>
+            <Link href="https://forms.gle/gTCRsKQasRLc1QcX9" isExternal>
+              <Button colorScheme="green" mt={3} maxW="sm">
+                Register Now
+              </Button>
+            </Link>
           </Flex>
           <Flex>
             <Image src="/stars.svg" alt="image" />
@@ -94,7 +96,7 @@ export default function HomeWidget() {
                 What is BounceHack?
               </Heading>
               <Text mt={3}>
-                BounceHack is a hackathon from Bounceback to raise funds for the
+                BounceHack is a hackathon from BounceBack to raise funds for the
                 Samiksha Foundation. BounceBack was a sports tournament, that
                 has since pivoted to a series of events!
                 <br />

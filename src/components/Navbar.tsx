@@ -15,6 +15,7 @@ import {
   useDisclosure,
   Text,
   Flex,
+  Link,
   VisuallyHidden,
   chakra,
   HStack,
@@ -63,7 +64,7 @@ export default function Navbar() {
             <Image
               ml={3}
               h={{ base: '10vmin', md: '5vmin', lg: '8vmin', xl: '10vmin' }}
-              src="/mais.png"
+              src="/mais.jpg"
               alt="MAIS"
             />
           </chakra.a>
@@ -124,9 +125,11 @@ export default function Navbar() {
             >
               FAQ
             </Button>
-            <Button colorScheme="green" variant="solid">
-              Register Now
-            </Button>
+            <Link href="https://forms.gle/gTCRsKQasRLc1QcX9" isExternal>
+              <Button colorScheme="green" variant="solid">
+                Register Now
+              </Button>
+            </Link>
           </HStack>
           <ColorModeSwitcher />
           <Box display={{ base: 'inline-flex', md: 'none' }}>
